@@ -1,0 +1,16 @@
+[project]
+name = "detide"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "tomsail",email = "saillour.thomas@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "pytides2 @ git+https://github.com/tomsail/pytides.git",
+    "pandas",
+    "pyarrow",
+    "hvplot",
+    "zensical"
+]
