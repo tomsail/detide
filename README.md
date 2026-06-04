@@ -1,10 +1,10 @@
 # detide
 
-de-tiding best practice of water level time series.
+Best practice for de-tiding water level time series.
 
 --- 
 
-Created as part of the [surgeMIP](https://www.sciencedirect.com/science/article/pii/S2212094724000501) (_Storm surges and extreme sea levels: Review, establishment of model intercomparison and coordination of surge climate projection efforts_)
+Created as part of the [SurgeMIP](https://www.sciencedirect.com/science/article/pii/S2212094724000501) (_Storm surges and extreme sea levels: Review, establishment of model intercomparison and coordination of surge climate projection efforts_)
 
 ## Quick start
 
