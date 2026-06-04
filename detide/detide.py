@@ -2,8 +2,8 @@ import pandas as pd
 from pytides2.tide import constituent
 from pytides2.tide import Tide
 
-from scripts.constants import FULL
-from scripts.constants import RESAMPLE
+from detide.constants import FULL
+from detide.constants import RESAMPLE
 
 
 def align_ts(ts):

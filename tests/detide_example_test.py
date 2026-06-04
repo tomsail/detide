@@ -1,17 +1,17 @@
 import holoviews as hv
 import pandas as pd
 
-from scripts.constants import SHORT
-from scripts.constants import FULL
-from scripts.constants import NOAA
+from detide.constants import SHORT
+from detide.constants import FULL
+from detide.constants import NOAA
 
-from scripts.plotting import plot_df
-from scripts.plotting import plot_comparative_amplitudes
+from detide.plotting import plot_df
+from detide.plotting import plot_comparative_amplitudes
 
-from scripts.detide import pytides_surge
-from scripts.detide import pytides_get_coefs
-from scripts.detide import pytides_get_coefs_df
-from scripts.detide import resample
+from detide.detide import pytides_surge
+from detide.detide import pytides_get_coefs
+from detide.detide import pytides_get_coefs_df
+from detide.detide import resample
 
 
 def test_detide_plots():

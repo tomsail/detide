@@ -10,8 +10,8 @@ Created as part of the [surgeMIP](https://www.sciencedirect.com/science/article/
 
 ```python
 import pandas as pd
-from scripts.harmonic import pytides_surge
-from scripts.constituents import FULL
+from detide.harmonic import pytides_surge
+from detide.constituents import FULL
 
 df = pd.read_parquet("tests/data/cuxh.parquet")
 surge = pytides_surge(df["elev"], constituents=FULL)
