@@ -2,7 +2,7 @@
 
 Best-practice de-tiding for water level time series
 
-!!! Info "Built for [surgeMIP](https://www.sciencedirect.com/science/article/pii/S2212094724000501)*"
+!!! Info "Created under the impulse of [surgeMIP](https://www.sciencedirect.com/science/article/pii/S2212094724000501)*'s need, in order to agree on a common methodology for de-tiding total water level time series"
     *_Storm surges and extreme sea levels: Review, establishment of model intercomparison and coordination of surge climate projection efforts_
 
 !!! Success "Ideally, this methodology can help anyone looking for best practice in detiding water level time series"
@@ -11,7 +11,7 @@ Best-practice de-tiding for water level time series
 ## Quick start
 
 ```bash
-git clone https://github.com/oceanmodeling/detide.git
+git clone https://github.com/tomsail/detide.git
 cd detide 
 pip install .
 ```
