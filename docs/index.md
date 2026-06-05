@@ -156,12 +156,16 @@ As simple as possible:
 - [ ] Choose a consituent set
 - [ ] Exclude Sa/Ssa from harmonic analysis to preserve seasonal signals?
 - [ ] Add metadata after the de-tiding of the time series?
-- [ ] Include export part & files formats in the methodology ?
-- [ ] Add multi processing support? 
+- [ ] Export and files formats? (zarr/netcdf/parquet etc.. `float32`, `float64` etc..)
+- [ ] Add multi processing support? (using `dask`, `multifutures`, `joblib`?)
 
 
 ## Contribute 
 
- * Look at the open issues
- * (Create a Github Account)
+ * Look at the [open issues](https://github.com/oceanmodeling/detide/issues)
+ * Propose a modification:
+   * (Create a Github Account)
+   * Fork the repository
+   * Push the changes on your fork
+   * open a Pull Request
  * Participate in the open discussion
