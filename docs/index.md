@@ -132,7 +132,7 @@ Parquet files should carry provenance metadata:
 }
 ```
 
-Much more info could be added. See github discussion about [metadata](https://github.com/orgs/oceanmodeling/discussions/26)
+Much more info could be added. See GitHub discussion about [metadata](https://github.com/orgs/oceanmodeling/discussions/26)
 
 ## Structure of this repository 
 
@@ -164,8 +164,8 @@ As simple as possible:
 
  * Look at the [open issues](https://github.com/oceanmodeling/detide/issues)
  * Propose a modification:
-   * (Create a Github Account)
-   * Fork the repository
-   * Push the changes on your fork
-   * open a Pull Request
+    * (Create a Github Account)
+    * Fork the repository
+    * Push the changes on your fork
+    * open a Pull Request
  * Participate in the open discussion
