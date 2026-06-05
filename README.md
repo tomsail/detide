@@ -20,7 +20,7 @@ surge = pytides_surge(df["elev"], constituents=FULL)
 ## Docs
 
 Methodology, API reference, and open questions: 
-**[tomsail.github.io/detide](https://tomsail.github.io/detide/)**
+**[oceanmodeling.github.io/detide](https://oceanmodeling.github.io/detide/)**
 
 ## Contributing
 

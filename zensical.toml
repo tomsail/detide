@@ -1,9 +1,9 @@
 [project]
 site_name = "detide"
 site_description = "Best-practice methodology for de-tiding water level time series"
-site_url = "https://tomsail.github.io/detide/"
-repo_url = "https://github.com/tomsail/detide"
-repo_name = "tomsail/detide"
+site_url = "https://oceanmodeling.github.io/detide/"
+repo_url = "https://github.com/oceanmodeling/detide"
+repo_name = "oceanmodeling/detide"
 docs_dir = "docs"
 site_dir = "site"
 nav = [

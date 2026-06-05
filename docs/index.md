@@ -11,7 +11,7 @@ Best-practice de-tiding for water level time series
 ## Quick start
 
 ```bash
-git clone https://github.com/tomsail/detide.git
+git clone https://github.com/oceanmodeling/detide.git
 cd detide 
 pip install .
 ```
