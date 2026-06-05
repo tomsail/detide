@@ -18,8 +18,8 @@ pip install .
 
 ```python
 import pandas as pd
-from scripts.harmonic import pytides_surge
-from scripts.constituents import FULL
+from detide.harmonic import pytides_surge
+from detide.constituents import FULL
 
 df = pd.read_parquet("tests/data/cuxh.parquet")
 surge = pytides_surge(df["elev"], constituents=FULL)
@@ -90,10 +90,10 @@ surge =  pd.Series(ts.values, tide.at(times), index=ts.index)
 Gathering all 4 previous steps above in one script:
 ```python
 import pandas as pd
-from scripts.constants import FULL
-from scripts.detide import pytides_surge
-from scripts.detide import pytides_get_coefs
-from scripts.detide import resample
+from detide.constants import FULL
+from detide.detide import pytides_surge
+from detide.detide import pytides_get_coefs
+from detide.detide import resample
 
 df = pd.read_parquet("station.parquet")
 ts = df["elev"]                 # must be a pd.Series
@@ -142,7 +142,7 @@ As simple as possible:
 ├── zensical.toml               <- docs build file
 ├── docs/
 │   └── index.md                <- 1-page docs
-├── scripts/
+├── detide/
 │   ├── harmonic.py             <- detiding 
 │   ├── constituents.py         <- constituents lists
 │   └── plotting.py             <- plotting functions
