@@ -58,3 +58,5 @@ FULL = [
 ]
 
 NOAA = constituent.noaa
+
+EXTENDED = constituent.extended
