@@ -59,4 +59,7 @@ FULL = [
 
 NOAA = constituent.noaa
 
-EXTENDED = constituent.extended
+EXTENDED = [
+    c for c in constituent.extended
+    if c not in (constituent._Sa, constituent._Ssa)
+]
